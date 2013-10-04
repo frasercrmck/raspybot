@@ -1,6 +1,16 @@
 raspybot
 ========
 
+##Server
+
+Run the test server with:
+```
+sudo python2 server.py
+```
+This will listen in on port 5000 to incoming clients.
+
+##Client
+
 Compile the test client with:
 ```
 gcc -lncurses -o client.o client.c
@@ -13,7 +23,6 @@ Invoke the client program with the following command:
 ```
 ./client.o <IP of Robot>
 ```
-The server obviously has to be running first. I'll commit and document that later.
 
 You can send the following the commands (probably woefully out of date):
 ```
